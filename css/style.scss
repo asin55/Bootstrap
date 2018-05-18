@@ -1,0 +1,33 @@
+.navbar-brand {
+  padding-top: 30px;
+  padding-bottom: 60px;
+
+}
+
+.navbar-nav li a {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+//.navbar-nav li a:hover {
+//  background-color: #f8f9fb;
+//  border-bottom: #49cbcd 2px solid;
+//  color: #49cbcd;
+//}
+
+.navbar-default .navbar-nav li a:hover {
+  background-color: #f8f9fb;
+  border-bottom: #49cbcd 2px solid;
+  color: #49cbcd;
+  padding-bottom: 43px;
+}
+.navbar-toggle {
+margin-top: 25px;
+}
+.btn-default {
+  background-color: none;
+}
+.btn {
+  background-color: none;
+
+}
