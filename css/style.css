@@ -16,9 +16,38 @@
   margin-top: 25px; }
 
 .btn-default {
-  background-color: none; }
+  background-color: rgba(1, 1, 1, 0);
+  color: white; }
 
-.btn {
-  background-color: none; }
+.container-fluid .item p {
+  margin-bottom: 50px; }
+.container-fluid .item h2 {
+  margin-bottom: 30px; }
+
+.text h3 {
+  margin-top: 75px;
+  margin-bottom: 140px;
+  font-size: 42px; }
+
+.container .row .shar {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  background-color: #eeeef0;
+  position: relative;
+  -webkit-border-radius: 100px 100px 100px 100px;
+  border-radius: 100px 100px 100px 100px;
+  overflow: hidden; }
+  .container .row .shar:hover .krest {
+    display: block; }
+  .container .row .shar .krest {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    display: none; }
+.container .member {
+  margin-top: 70px; }
 
 /*# sourceMappingURL=style.css.map */
