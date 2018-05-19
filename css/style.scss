@@ -1,3 +1,7 @@
+$main_color: #485460;
+$second_color: #f8f9fb;
+
+
 .navbar-brand {
   padding-top: 30px;
   padding-bottom: 60px;
@@ -27,16 +31,17 @@ margin-top: 25px;
 .btn-default {
   background-color: rgba(1, 1, 1, 0);
   color: white;
+  margin-bottom: 10%;
 
 }
 
 .container-fluid {
   .item {
     p {
-      margin-bottom:50px;
+      margin-bottom:10%;
     }
     h2 {
-      margin-bottom: 50px;
+      margin-bottom: 5%;
 
     }
   }
@@ -60,8 +65,8 @@ margin-top: 25px;
       width: 200px;
       background-color: #eeeef0;
       position: relative;
-      -webkit-border-radius: 100px 100px 100px 100px;
-      border-radius: 100px 100px 100px 100px;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
       overflow: hidden;
       &:hover {
         .krest {
@@ -77,10 +82,74 @@ margin-top: 25px;
         display: none;
       }
     }
+    .member {
+      margin-top: 70px;
+    }
 
   }
-  .member {
-    margin-top: 70px;
+
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  background-color: #f1f1f1;
+  .container {
+    .row {
+      .col-sm-4 {
+        ul {
+          text-align: center;
+
+          li {
+            height: 45px;
+            list-style-type: none;
+            color: #8c9299;
+            padding-top: 18px;
+            margin-bottom: 1px;
+            background-color: white;
+          }
+
+          li:first-child {
+            background-color: $main_color;
+            text-align: center;
+            height: 76px;
+            padding-top: 23px;
+            font-size: 26px;
+            color: white;
+          }
+
+          li:nth-child(2) {
+            background-color: $second_color;
+            height: 70px;
+            padding-top: 25px;
+            font-size: 20px;
+            color: $main_color;
+          }
+
+          li:last-child {
+            background-color: $second_color;
+            height: 100%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            a {
+              text-decoration: none;
+              background-color: #788492;
+              color: white;
+              padding: 15px 55px ;
+              border-radius: 5px;
+              font-size: 17px;
+            }
+          }
+        }
+      }
+      .col-sm-4:nth-child(2) {
+        ul {
+          li:first-child {
+            background-color: #49cbcd;
+          }
+      }
+    }
   }
 }
+
 

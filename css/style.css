@@ -17,12 +17,13 @@
 
 .btn-default {
   background-color: rgba(1, 1, 1, 0);
-  color: white; }
+  color: white;
+  margin-bottom: 10%; }
 
 .container-fluid .item p {
-  margin-bottom: 50px; }
+  margin-bottom: 10%; }
 .container-fluid .item h2 {
-  margin-bottom: 30px; }
+  margin-bottom: 5%; }
 
 .text h3 {
   margin-top: 75px;
@@ -35,8 +36,8 @@
   width: 200px;
   background-color: #eeeef0;
   position: relative;
-  -webkit-border-radius: 100px 100px 100px 100px;
-  border-radius: 100px 100px 100px 100px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
   overflow: hidden; }
   .container .row .shar:hover .krest {
     display: block; }
@@ -47,7 +48,46 @@
     margin-left: -20px;
     margin-top: -20px;
     display: none; }
-.container .member {
+.container .row .member {
   margin-top: 70px; }
+
+section {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  background-color: #f1f1f1; }
+  section .container .row .col-sm-4 ul {
+    text-align: center; }
+    section .container .row .col-sm-4 ul li {
+      height: 45px;
+      list-style-type: none;
+      color: #8c9299;
+      padding-top: 18px;
+      margin-bottom: 1px;
+      background-color: white; }
+    section .container .row .col-sm-4 ul li:first-child {
+      background-color: #485460;
+      text-align: center;
+      height: 76px;
+      padding-top: 23px;
+      font-size: 26px;
+      color: white; }
+    section .container .row .col-sm-4 ul li:nth-child(2) {
+      background-color: #f8f9fb;
+      height: 70px;
+      padding-top: 25px;
+      font-size: 20px;
+      color: #485460; }
+    section .container .row .col-sm-4 ul li:last-child {
+      background-color: #f8f9fb;
+      height: 100%;
+      padding-top: 30px;
+      padding-bottom: 30px; }
+      section .container .row .col-sm-4 ul li:last-child a {
+        text-decoration: none;
+        background-color: #788492;
+        color: white;
+        padding: 15px 55px;
+        border-radius: 5px;
+        font-size: 17px; }
 
 /*# sourceMappingURL=style.css.map */
